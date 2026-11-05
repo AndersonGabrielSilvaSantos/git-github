@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Páginas da turma · Workshop Mosten</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #edf7ef; color: #23231e; font-family: system-ui, sans-serif; }
+    main { max-width: 1100px; margin: auto; padding: 64px 24px; }
+    .etiqueta { color: #612cb5; font-weight: 700; font-size: .85rem; text-transform: uppercase; letter-spacing: .08em; }
+    h1 { font-size: clamp(3rem, 8vw, 6rem); letter-spacing: -.05em; line-height: 1.05; margin: 32px 0; }
+    .intro { font-size: 1.2rem; line-height: 1.7; max-width: 55ch; }
+    section { border-top: 2px solid #612cb5; margin-top: 56px; padding-top: 24px; }
+    h2 { font-size: 1.7rem; }
+    ul { padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 16px; }
+    li a { background: #fff; color: #612cb5; padding: 24px; display: block; border-radius: 8px; font-size: 1.15rem; font-weight: 650; overflow-wrap: anywhere; text-underline-offset: 5px; }
+    a:hover { background: #e4d7f7; }
+    a:focus-visible { outline: 3px solid #612cb5; outline-offset: 4px; }
+    footer { margin-top: 48px; color: #514d56; line-height: 1.6; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="etiqueta">Workshop Mosten · Git &amp; GitHub</p>
+    <h1>Conheça nossa turma.</h1>
+    <p class="intro">Cada página começou com uma ideia e chegou aqui por uma Pull Request. Este é o resultado do nosso primeiro projeto em equipe.</p>
+    <section aria-labelledby="paginas">
+      <h2 id="paginas">Páginas publicadas</h2>
+      <ul>
+        <!-- INICIO_GALERIA -->
+        <li><a href="pages/exemplo.html">exemplo</a></li>
+        <!-- FIM_GALERIA -->
+      </ul>
+    </section>
+    <footer>Crie sua página a partir do modelo e envie uma PR.<br>Após o merge e a publicação, ela aparecerá nesta galeria.</footer>
+  </main>
+</body>
+</html>

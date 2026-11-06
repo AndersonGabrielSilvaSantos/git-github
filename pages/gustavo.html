@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página do Gustavo · Mosten</title>
+  <style>
+    /* MUDE ESTAS CORES. Mantenha um bom contraste com o texto. */
+    :root {
+      --fundo: #edf7ef;
+      --destaque: #612cb5;
+      --texto: #23231e;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--fundo); color: var(--texto); font-family: system-ui, sans-serif; }
+    main { width: min(840px, 100%); margin: auto; padding: 12vh 24px 64px; }
+    .etiqueta { color: var(--destaque); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: .85rem; }
+    h1 { font-size: clamp(2.6rem, 8vw, 5rem); line-height: 1.08; letter-spacing: -.04em; overflow-wrap: anywhere; margin: 28px 0; }
+    h1::after { content: ""; display: block; width: 80px; height: 6px; background: var(--destaque); margin-top: 32px; }
+    p { font-size: 1.2rem; line-height: 1.7; max-width: 55ch; }
+    footer { margin-top: 64px; font-size: .9rem; }
+    .ver-turma { display: inline-flex; align-items: center; min-height: 44px; gap: 8px; padding: 10px 0; margin-bottom: 24px; color: var(--destaque); background: transparent; font-weight: 700; text-decoration: none; }
+    .ver-turma:hover { text-decoration: underline; text-underline-offset: 4px; }
+    .ver-turma:focus-visible { outline: 3px solid var(--destaque); outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="ver-turma" href="../index.html"><span aria-hidden="true">←</span> Ver turma</a>
+    <p class="etiqueta">Workshop Mosten · Git &amp; GitHub</p>
+    <h1>Olá, eu sou Gustavo!</h1>
+    <p>Isso é um teste.</p>
+    <footer>Uma página, um commit e uma contribuição para a turma.</footer>
+  </main>
+</body>
+</html>

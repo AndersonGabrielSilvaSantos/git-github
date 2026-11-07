@@ -40,7 +40,6 @@ def build(root=ROOT):
         before + START + "\n" + links + "\n        " + END + after,
         encoding="utf-8",
     )
-    shutil.copyfile(root / "modelo.html", output / "modelo.html")
     (output / ".nojekyll").touch()
     print(f"Site pronto em {output}: {len(pages)} página(s).")
     return output

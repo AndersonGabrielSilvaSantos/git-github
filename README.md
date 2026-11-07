@@ -1,4 +1,4 @@
-# Páginas da turma
+# Hands on: Git e GitHub
 
 Cada aluno cria uma página HTML e envia uma Pull Request. Após o merge na `main`, a página aparece na galeria publicada.
 
@@ -19,7 +19,7 @@ Substitua os marcadores pelas URLs reais e `SEU_USUARIO` pelo seu usuário GitHu
 
 ### 2. Criar sua página
 
-Abra a pasta clonada no VS Code. Copie `modelo.html` para `pages/SEU_USUARIO.html`. Altere o texto do `<h1>` e as cores `--fundo` e `--destaque`. Salve e abra seu HTML no navegador.
+Abra a pasta clonada no VS Code. Duplique `pages/exemplo.html` na mesma pasta e renomeie a cópia para `SEU_USUARIO.html`. Altere o texto do `<h1>` e as cores `--fundo` e `--destaque`. Salve e abra seu HTML no navegador.
 
 Altere apenas seu arquivo. O nome deve usar letras minúsculas, números e hífens. A galeria incluirá sua página automaticamente após o merge e a publicação.
 

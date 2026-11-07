@@ -10,5 +10,3 @@ O que alterei no título e nas cores:
 - [ ] Alterei apenas minha página nesta PR.
 - [ ] O nome do arquivo usa meu usuário em letras minúsculas.
 - [ ] A base da PR é a `main` do repositório da turma.
-
-Colega que pode comentar minha página: @
